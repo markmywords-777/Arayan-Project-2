@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kabankalan Catholic College, Inc. | Catholic Education</title>
-  <meta name="description" content="Kabankalan Catholic College, Inc. is a Christ-centered Catholic educational institution in Kabankalan City, Negros Occidental.">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Kabankalan Catholic College, Inc. | Catholic Education: Our Identity, Our Mission</title>
+  <meta name="description" content="Kabankalan Catholic College, Inc. is a Christ-centered Catholic educational institution in Kabankalan City, Negros Occidental, offering basic education, senior high school, and college programs.">
+
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -13,18 +15,22 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
+
 <body class="index-page">
   <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl d-flex align-items-center">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <img src="assets/img/kcc-logo.png" alt="Kabankalan Catholic College logo">
         <h1 class="sitename">KCC</h1>
       </a>
+
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html#home" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li class="dropdown"><a href="courses.html"><span>Academics</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -40,21 +46,23 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
       <a class="btn-getstarted" href="https://kcc.wela.ph" target="_blank" rel="noopener">Enroll Now</a>
     </div>
   </header>
 
   <main class="main">
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg.jpg" alt="Kabankalan Catholic College">
-      <div class="container" data-aos="fade-up">
-        <p class="hero-kicker mb-3">Est. 1927 — Kabankalan City, Negros Occidental</p>
-        <h2>Kabankalan Catholic College, Inc.</h2>
-        <p class="fst-italic">“Teach Ye All Nations” — Matthew 28:19</p>
-        <p>A Christ-centered learning community committed to academic excellence, faith formation, and service since 1927.</p>
-        <div class="d-flex flex-wrap gap-3 mt-4">
+    <section id="home" class="hero section dark-background">
+      <img src="assets/img/kcc.jpg" alt="Kabankalan Catholic College" data-aos="fade-in">
+      <div class="container">
+        <p class="hero-kicker mb-3" data-aos="fade-up" data-aos-delay="50">Est. 1927 — Kabankalan City, Negros Occidental</p>
+        <h2 data-aos="fade-up" data-aos-delay="100">Kabankalan Catholic College, Inc.</h2>
+        <p data-aos="fade-up" data-aos-delay="150">Catholic Education: Our Identity, Our Mission</p>
+        <p class="fst-italic" data-aos="fade-up" data-aos-delay="200">“Teach Ye All Nations” — Matthew 28:19</p>
+        <p data-aos="fade-up" data-aos-delay="250">A Christ-centered learning community committed to academic excellence, faith formation, and service since 1927.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4" data-aos="fade-up" data-aos-delay="300">
           <a href="https://kcc.wela.ph" target="_blank" rel="noopener" class="btn-get-started">Apply for Admission</a>
-          <a href="#courses" class="btn-get-started btn-outline-light">Explore Programs</a>
+          <a href="#programs" class="btn-get-started">Explore Programs</a>
         </div>
       </div>
     </section>
@@ -63,18 +71,13 @@
       <div class="container">
         <div class="row gy-4 align-items-center">
           <div class="col-lg-6" data-aos="fade-up">
-            <img src="assets/img/about/about-1.webp" class="img-fluid rounded" alt="KCC community">
+            <img src="assets/img/about/33.webp" class="img-fluid rounded" alt="Kabankalan Catholic College community">
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
             <p class="section-kicker">About Us</p>
             <h3>A Legacy of Faith &amp; Education</h3>
-            <p>Founded in 1927, Kabankalan Catholic College has served as the home of Catholic education in Kabankalan City, Negros Occidental. For close to a century, KCC has shaped graduates who carry strong academics, solid values, and a heart for service.</p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i><span>Academic Excellence</span></li>
-              <li><i class="bi bi-check-circle"></i><span>Faith Formation</span></li>
-              <li><i class="bi bi-check-circle"></i><span>Community Service</span></li>
-              <li><i class="bi bi-check-circle"></i><span>Holistic Development</span></li>
-            </ul>
+            <p>Founded in 1927, Kabankalan Catholic College has served as the home of Catholic education in Kabankalan City, Negros Occidental. For close to a century, KCC has shaped graduates who carry with them strong academics, solid values, and a heart for service.</p>
+            <p class="fst-italic">“Teach Ye All Nations”</p>
             <a href="about.html" class="read-more"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
@@ -91,62 +94,80 @@
       </div>
     </section>
 
-    <section id="courses" class="courses section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Academic Programs</h2>
-        <p>Programs Offered</p>
-      </div>
+    <section id="pillars" class="section why-us">
       <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <p class="section-kicker">What We Stand For</p>
+          <h2>The Four Pillars</h2>
+        </div>
         <div class="row gy-4">
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="course-item h-100">
-              <img src="assets/img/course/course-1.webp" class="img-fluid" alt="College programs">
-              <div class="course-content">
-                <p class="category">Tertiary</p>
-                <h3>College Programs</h3>
-                <p class="description">Business Administration, Information Technology, Accountancy, Education, Psychology, Philosophy, Tourism Management, and Criminology.</p>
-                <a href="courses.html" class="read-more"><span>Explore Programs</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="course-item h-100">
-              <img src="assets/img/course/course-2.webp" class="img-fluid" alt="Senior High School">
-              <div class="course-content">
-                <p class="category">Grades 11–12</p>
-                <h3>Senior High School</h3>
-                <p class="description">Academic and TVL strands that prepare students for higher education, employment, entrepreneurship, and lifelong learning.</p>
-                <a href="courses.html#senior-high" class="read-more"><span>View SHS Tracks</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="course-item h-100">
-              <img src="assets/img/course/course-3.webp" class="img-fluid" alt="Basic education">
-              <div class="course-content">
-                <p class="category">K to Grade 10</p>
-                <h3>Basic Education</h3>
-                <p class="description">Elementary and Junior High School departments grounded in strong academics and Catholic formation.</p>
-                <a href="courses.html#basic-education" class="read-more"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up"><div class="icon-box d-flex flex-column h-100"><i class="bi bi-mortarboard"></i><h4>I — Academic Excellence</h4><p>Rigorous academics that challenge students to think critically and develop a genuine love for learning.</p></div></div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100"><div class="icon-box d-flex flex-column h-100"><i class="bi bi-cross"></i><h4>II — Faith Formation</h4><p>Deepening faith through Catholic tradition, prayer, and a personal relationship with God.</p></div></div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200"><div class="icon-box d-flex flex-column h-100"><i class="bi bi-people"></i><h4>III — Community Service</h4><p>Reaching out to those in need, putting the Gospel into practice through hands-on service.</p></div></div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300"><div class="icon-box d-flex flex-column h-100"><i class="bi bi-person-check"></i><h4>IV — Holistic Development</h4><p>Shaping students who are not only skilled and knowledgeable but also grounded in strong values.</p></div></div>
         </div>
       </div>
     </section>
 
-    <section id="mission" class="section light-background">
+    <section id="programs" class="courses section">
+      <div class="container section-title" data-aos="fade-up">
+        <p class="section-kicker">Academic Programs</p>
+        <h2>Programs Offered</h2>
+        <p>From business and IT to education and criminology, KCC prepares students for the careers they want to pursue.</p>
+      </div>
+      <div class="container">
+        <h3 class="mb-4" data-aos="fade-up">College of Management, Accountancy and Technology</h3>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in"><div class="course-item h-100"><div class="course-content"><p class="category">01</p><h3>Bachelor of Science in Business Administration</h3><p class="description">The BSBA program prepares students for careers in business and management. Students develop competencies in financial analysis, marketing strategy, organizational management, and entrepreneurship.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100"><div class="course-item h-100"><div class="course-content"><p class="category">02</p><h3>Bachelor of Science in Information Technology</h3><p class="description">The BSIT program develops future-ready IT professionals with skills in software development, networking, database management, and emerging technologies. Students gain hands-on experience in building real-world applications.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200"><div class="course-item h-100"><div class="course-content"><p class="category">03</p><h3>Bachelor of Science in Accountancy</h3><p class="description">The BSA program develops competent and ethical accountants prepared for the CPA licensure examination. Students gain expertise in financial accounting, auditing, taxation, and management advisory services.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in"><div class="course-item h-100"><div class="course-content"><p class="category">04</p><h3>Bachelor of Science in Accounting Information System</h3><p class="description">The BSAIS program integrates accounting knowledge with information technology skills. Students learn to design, implement, and manage accounting information systems for modern business environments.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100"><div class="course-item h-100"><div class="course-content"><p class="category">05</p><h3>Bachelor of Science in Management Accounting</h3><p class="description">The BSMA program focuses on strategic financial management and decision-making. Students develop skills in cost analysis, budgeting, performance evaluation, and strategic planning for organizations.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200"><div class="course-item h-100"><div class="course-content"><p class="category">06</p><h3>Bachelor of Science in Tourism Management</h3><p class="description">The BSTM program prepares students for careers in the dynamic tourism and hospitality industry. Students learn tourism planning, event management, and sustainable tourism development.</p></div></div></div>
+        </div>
+
+        <h3 class="mt-5 mb-4" data-aos="fade-up">College of Education, Arts and Sciences</h3>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in"><div class="course-item h-100"><div class="course-content"><p class="category">01</p><h3>Bachelor of Elementary Education</h3><p class="description">The BEEd program prepares dedicated and competent educators for elementary education with strong pedagogical foundations and content knowledge for teaching young learners.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100"><div class="course-item h-100"><div class="course-content"><p class="category">02</p><h3>Bachelor of Secondary Education</h3><p class="description">The BSEd program trains future secondary school teachers with specializations in various fields. Graduates are equipped with advanced subject knowledge and teaching methodologies.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200"><div class="course-item h-100"><div class="course-content"><p class="category">03</p><h3>Bachelor of Early Childhood Education</h3><p class="description">The BECEd program prepares educators specializing in early childhood development and education. Students learn to nurture curiosity, confidence, and a love for learning in young children.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in"><div class="course-item h-100"><div class="course-content"><p class="category">04</p><h3>Bachelor of Physical Education</h3><p class="description">The BPEd program develops competent physical education teachers and sports professionals with knowledge in exercise science, sports coaching, and health-related fitness.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100"><div class="course-item h-100"><div class="course-content"><p class="category">05</p><h3>Bachelor of Arts in Philosophy</h3><p class="description">The AB Philosophy program develops critical thinking, analytical reasoning, and ethical reflection through questions about existence, knowledge, values, and the human condition.</p></div></div></div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200"><div class="course-item h-100"><div class="course-content"><p class="category">06</p><h3>Bachelor of Science in Psychology</h3><p class="description">The BS Psychology program provides a comprehensive understanding of human behavior, mental processes, and psychological well-being. Students develop skills in counseling, assessment, and research.</p></div></div></div>
+        </div>
+
+        <h3 class="mt-5 mb-4" data-aos="fade-up">College of Criminology</h3>
+        <div class="row"><div class="col-lg-4 col-md-6" data-aos="zoom-in"><div class="course-item h-100"><div class="course-content"><p class="category">01</p><h3>Bachelor of Science in Criminology</h3><p class="description">The BS Criminology program trains future law enforcement professionals with a strong foundation in criminal justice, forensic science, and law enforcement administration.</p></div></div></div></div>
+
+        <div class="section-title mt-5" data-aos="fade-up"><p class="section-kicker">Explore All Levels</p><h2>Education for Every Stage</h2></div>
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up"><div class="icon-box h-100"><i class="bi bi-bank"></i><h4>Tertiary — College Programs</h4><p>Degree programs in Business, IT, Accountancy, Education, and Criminology.</p><a href="courses.html">Explore Programs</a></div></div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="icon-box h-100"><i class="bi bi-book"></i><h4>Grades 11–12 — Senior High School</h4><p>Academic Track (STEM, ABM, HUMSS, GAS) and TVL Track strands.</p><a href="courses.html#senior-high">View SHS Tracks</a></div></div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200"><div class="icon-box h-100"><i class="bi bi-backpack"></i><h4>K to Grade 10 — Basic Education</h4><p>Elementary and Junior High School departments with strong Catholic foundations.</p><a href="courses.html#basic-education">Learn More</a></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="section light-background">
+      <div class="container section-title" data-aos="fade-up"><p class="section-kicker">Latest Updates</p><h2>News &amp; Announcements</h2><p>What’s new at KCC — announcements, events, and stories from our community.</p></div>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3>Our Mission</h3>
-            <p>KCC commits to provide quality and inclusive Catholic education, rooted in the Gospel and driven by innovative research and meaningful community engagements, empowering its members to become effective agents of societal transformation.</p>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3>The Four Pillars</h3>
-            <p>Academic Excellence · Faith Formation · Community Service · Holistic Development</p>
-          </div>
+          <div class="col-lg-4" data-aos="fade-up"><div class="course-item h-100"><div class="course-content"><p class="category">Community · December 2024</p><h3>KCC Community Outreach: Christmas Gift-Giving and Feeding Program</h3><p class="description">KCC students and faculty organized a Christmas community outreach program, sharing blessings with less fortunate families in Kabankalan City.</p><a href="events.html">Read more</a></div></div></div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="course-item h-100"><div class="course-content"><p class="category">Announcement · December 2024</p><h3>KCC Announces Expanded Programs for College Department</h3><p class="description">Kabankalan Catholic College is excited to announce expanded course offerings in the College Department to meet the growing demand for quality higher education.</p><a href="courses.html">Read more</a></div></div></div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200"><div class="course-item h-100"><div class="course-content"><p class="category">Event · January 2025</p><h3>College Department Holds Intramurals and College Week</h3><p class="description">The KCC College Department organized its annual College Week featuring intramural games, academic contests, and cultural activities.</p><a href="events.html">Read more</a></div></div></div>
         </div>
+      </div>
+    </section>
+
+    <section id="campus-life" class="section">
+      <div class="container section-title" data-aos="fade-up"><p class="section-kicker">Campus Life</p><h2>Life at KCC</h2><p>Campus life at KCC goes beyond the classroom — friendships are made, faith is strengthened, and memories are built.</p></div>
+      <div class="container">
+        <h3 data-aos="fade-up">Academic Events — 2 Albums</h3>
+        <div class="row gy-4 mt-2">
+          <div class="col-lg-6" data-aos="fade-up"><div class="card h-100"><img src="assets/img/event/cmat/campus-1.webp" class="card-img-top" alt="CMAT Pinning 2025"><div class="card-body"><p class="category">Academic Events</p><h4>CMAT Pinning 2025</h4><p>The Rite of Pinning for the College of Management, Accountancy, and Technology marks a significant milestone in our students’ academic journey. This ceremony honors their dedication, perseverance, and readiness to embrace their roles as future professionals and leaders.</p></div></div></div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100"><div class="card h-100"><img src="assets/img/event/criminology/campus-6.webp" class="card-img-top" alt="KCC Criminology Reception Rites"><div class="card-body"><p class="category">Academic Events</p><h4>Criminology Reception Rites</h4><p>Built through discipline, courage, and brotherhood. KCC Criminology Class Makisig undergoes their Reception Rites — a test of strength, resilience, and commitment to the path of future public servants.</p></div></div></div>
+        </div>
+        <div class="text-center mt-4"><a href="events.html" class="read-more"><span>See more</span><i class="bi bi-arrow-right"></i></a></div>
       </div>
     </section>
   </main>
@@ -157,30 +178,22 @@
         <div class="col-lg-5 footer-about">
           <a href="index.html" class="logo d-flex align-items-center"><span class="sitename">Kabankalan Catholic College</span></a>
           <p>Catholic Education: Our Identity, Our Mission</p>
-          <div class="footer-contact pt-3">
-            <p>Guanzon St., Brgy. 1, Kabankalan City, Negros Occidental</p>
-            <p><strong>Phone:</strong> (032) 4712-479</p>
-            <p><strong>Email:</strong> kcc_1927@yahoo.com</p>
-            <p><strong>Office Hours:</strong> 8:00 AM–12:NN and 1:00–5:00 PM</p>
-          </div>
+          <p>A Catholic school in Kabankalan City forming students who are grounded in faith, strong in academics, and ready to serve.</p>
+          <div class="footer-contact pt-3"><p>Guanzon St., Brgy. 1, Kabankalan City, Negros Occidental</p><p><strong>Phone:</strong> (032) 4712-479</p><p><strong>Email:</strong> kcc_1927@yahoo.com</p><p><strong>Office Hours:</strong> 8:00 AM–12:NN and 1:00–5:00 PM</p></div>
         </div>
-        <div class="col-lg-3 footer-links">
-          <h4>Quick Links</h4>
-          <ul><li><a href="about.html">About KCC</a></li><li><a href="courses.html">Programs</a></li><li><a href="pricing.html">Admissions</a></li><li><a href="contact.html">Contact</a></li></ul>
-        </div>
-        <div class="col-lg-4">
-          <h4>Follow KCC</h4>
-          <p><a href="https://www.facebook.com/KCCInc1927" target="_blank" rel="noopener"><i class="bi bi-facebook"></i> @KCCInc1927</a></p>
-        </div>
+        <div class="col-lg-3 footer-links"><h4>Quick Links</h4><ul><li><a href="about.html">About KCC</a></li><li><a href="courses.html">College Programs</a></li><li><a href="courses.html#senior-high">Senior High School</a></li><li><a href="courses.html#basic-education">Basic Education</a></li><li><a href="events.html">News &amp; Updates</a></li><li><a href="pricing.html">Admissions</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="col-lg-4"><h4>Our Mission</h4><p>KCC commits to provide quality and inclusive Catholic education, rooted in the Gospel and driven by innovative research and meaningful community engagements, empowering its members to become effective agents of societal transformation.</p><p><a href="https://www.facebook.com/KCCInc1927" target="_blank" rel="noopener"><i class="bi bi-facebook"></i> Follow us on Facebook @KCCInc1927</a></p></div>
       </div>
     </div>
-    <div class="container copyright text-center mt-4"><p>© 2026 Kabankalan Catholic College, Inc. All rights reserved.</p></div>
+    <div class="container copyright text-center mt-4"><p>© 2026 Kabankalan Catholic College, Inc. All rights reserved.</p><p>“Teach Ye All Nations” — Mt 28:19</p></div>
   </footer>
 
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
