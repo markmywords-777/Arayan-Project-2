@@ -2174,8 +2174,22 @@ section,
   padding-bottom: 40px;
 }
 
+.contact .map-wrap {
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--heading-color), transparent 88%);
+  box-shadow: 0 12px 36px rgba(26, 35, 126, 0.10);
+}
+
+.contact .map-wrap iframe {
+  border: 0;
+  display: block;
+  width: 100%;
+  height: 340px;
+}
+
 .contact .info-item+.info-item {
-  margin-top: 40px;
+  margin-top: 24px;
 }
 
 .contact .info-item i {
@@ -2187,7 +2201,7 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 12px;
   transition: all 0.3s ease-in-out;
   margin-right: 15px;
 }
@@ -2205,17 +2219,38 @@ section,
   font-size: 14px;
 }
 
+.contact .info-item p a {
+  color: var(--default-color);
+}
+
+.contact .info-item p a:hover {
+  color: var(--accent-color);
+}
+
 .contact .email-form {
   height: 100%;
+  padding: 28px;
+  border: 1px solid color-mix(in srgb, var(--heading-color), transparent 88%);
+  border-radius: 12px;
+  background: var(--surface-color);
+  box-shadow: 0 12px 36px rgba(26, 35, 126, 0.08);
+}
+
+.contact .email-form .form-label {
+  color: var(--heading-color);
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
 }
 
 .contact .email-form input[type=text],
 .contact .email-form input[type=email],
 .contact .email-form textarea {
   font-size: 14px;
-  padding: 10px 15px;
+  min-height: 46px;
+  padding: 10px 14px;
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 8px;
   color: var(--default-color);
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
